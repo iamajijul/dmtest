@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.dm.dmtest.models.repo_list.RepoListItemModel" />
+
+        <variable
+            name="viewModel"
+            type="com.dm.dmtest.ui.main.SharedViewModel" />
+    </data>
+
+    <LinearLayout
+        android:onClick="@{()-> viewModel.onItemClick(data)}"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{data.name}"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+</layout>

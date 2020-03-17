@@ -1,0 +1,4 @@
+Used RXJAVA, RX ANDROID, DATA BINDING, MVVM, DAGGER 2, KOTLIN, NAVIGATION(Architecture component)
+
+I case of MainViewModel class, I can divide into another repository class, but because of two number of
+network call, I kept in one class

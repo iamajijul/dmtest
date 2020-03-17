@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DMtest</string>
+    <string name="repoList">Repo List</string>
+    <string name="repoDetails">Repo Details</string>
+</resources>

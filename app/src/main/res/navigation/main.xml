@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/repo_list_screen">
+
+    <fragment
+        android:id="@+id/repo_list_screen"
+        android:name="com.dm.dmtest.ui.main.repo_list.RepoListFragment"
+        android:label="@string/repoList"
+        tools:layout="@layout/fragment_repo_list" />
+
+    <fragment
+        android:id="@+id/repo_details_screen"
+        android:name="com.dm.dmtest.ui.main.repo_details.RepoDetailsFragment"
+        android:label="@string/repoDetails"
+        tools:layout="@layout/fragment_repo_details" />
+
+</navigation>
