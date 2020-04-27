@@ -1,4 +1,4 @@
-#DMTest
+# DMTest
 
 This Application mainly use for two purpose : 
 1. Get the all repository project github for a particular user
@@ -14,7 +14,7 @@ There are 4 main folders: di, models, network, ui, utils.
 * network: Retrofit network related classes present in this folder
 * ui: All views related classes present in this folder. The app follows MVVM architecture coding pattern 
 for this project.
-* utils: Contains utilities, base classes, extension function etc classes. 
+* utils: Contains utilities classes.
 
 ### Design, libraries and other stuff applied
 
@@ -25,7 +25,6 @@ for this project.
 * Dagger 2 for dependency injection
 * Retrofit
 * MVVM architecture + Repository pattern
-* Junit4 
 * Navigation Architecture Component
 * Constraint Layout
 
