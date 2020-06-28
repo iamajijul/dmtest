@@ -1,4 +1,4 @@
-#DMTest
+# DMTest
 
 This Application mainly use for two purpose : 
 1. Get the all repository project github for a particular user
@@ -6,7 +6,7 @@ This Application mainly use for two purpose :
 
 The app follows the MVVM architecture with the repository pattern, alongside Dagger for DI.
 
-####Folder structure
+#### Folder structure
 
 There are 4 main folders: di, models, network, ui, utils.
 * di: Contain Dagger 2 related files
@@ -16,7 +16,7 @@ There are 4 main folders: di, models, network, ui, utils.
 for this project.
 * utils: Contains utilities classes.
 
-###Design, libraries and other stuff applied
+### Design, libraries and other stuff applied
 
 * Data binding
 * Google Material Components
@@ -31,7 +31,7 @@ for this project.
 Whole project written in kotlin language.
 
 
-###Permission!
+### Permission!
 
 1. Internet permission
 
